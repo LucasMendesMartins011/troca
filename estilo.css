@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+.topo {
+  width: 100vw;
+  height: 50px;
+  background-color: #233364;
+}
+ 
+.quadro {
+  width: 90vw;
+  height: auto;
+  background-color: #9f6f37;
+  max-width: 1000px;
+  min-height: 200px;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+ 
+.bo {
+  width: 42vw;
+  height: 42px;
+  background-color: #233364;
+  border-radius: 40px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bo div {
+    font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.mag {
+  width: 10vw;
+  height: auto;
+}
+ 
+.bo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.t1 {
+  width: 80%;
+  height: auto;
+  display: flex;
+text-align: justify;
+}
+
+.t1 p::first-letter {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4em;
+  line-height: 1;
+  padding-right: 1px;
+  font-weight: bold;
+  text-align: justify;
+  color: #233364;
+}
+
+.t1 p {
+  font-family: "Zain", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-style: normal;
+  text-align: justify;
+}
+
+.linha {
+  width: 85%;
+  height: 1px;
+  background-color: #233364;
+}
+ 
+.quadro1 {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding: 20;
+}
+
+.esquerda h2 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #233364;
+  margin: 15px;
+}
+
+.direita p {
+  flex: 1;
+  text-align: justify;
+  font-family: "Zain", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-style: normal;
+}
+
+.t11 {
+  width: 80%;
+  height: auto;
+  display: flex;
+text-align: justify;
+}
+
+.t11 p {
+  font-family: "Zain", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-style: normal;
+  text-align: justify;
+}
+
+
